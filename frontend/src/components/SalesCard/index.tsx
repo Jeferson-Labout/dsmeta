@@ -8,7 +8,7 @@ import { BASE_URL } from "../../utils/request";
 import { Sale } from "../../models/sale";
 import NotificationButton from "../NotificationButton";
 
-function SalesCard(): JSX.Element {
+function SalesCard() {
 
   const max = new Date();
   const min = new Date(new Date().setDate(new Date().getDate() - 365));
